@@ -14,6 +14,6 @@ extension String {
         for c in self.characters.sort() where c != " " {
             chars.append(c)
         }
-        return String(chars)
+        return String(chars).lowercaseString
     }
 }

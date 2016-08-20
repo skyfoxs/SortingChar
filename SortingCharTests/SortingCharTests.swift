@@ -32,4 +32,8 @@ class SortingCharTests: XCTestCase {
     func testInputWithSpaceShouldBeSortedWithoutSpace(){
         XCTAssertEqual("a d z".sortedChar, "adz", "a d z should sorted to adz")
     }
+
+    func testInputWithUpperCaseShouldBeLowerCase(){
+        XCTAssertEqual("ADz".sortedChar, "adz", "ADz should sorted to adz")
+    }
 }
