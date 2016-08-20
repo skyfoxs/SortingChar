@@ -10,6 +10,6 @@ import Foundation
 
 extension String {
     var sortedChar: String {
-        return "act"
+        return String(self.characters.sort())
     }
 }

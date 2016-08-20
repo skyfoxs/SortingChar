@@ -24,4 +24,8 @@ class SortingCharTests: XCTestCase {
     func testInputCatShouldBeAct(){
         XCTAssertEqual("cat".sortedChar, "act", "cat should sorted to act")
     }
+
+    func testInputZadShouldBeAdz(){
+        XCTAssertEqual("zad".sortedChar, "adz", "zad should sorted to adz")
+    }
 }
