@@ -28,4 +28,8 @@ class SortingCharTests: XCTestCase {
     func testInputZadShouldBeAdz(){
         XCTAssertEqual("zad".sortedChar, "adz", "zad should sorted to adz")
     }
+
+    func testInputWithSpaceShouldBeSortedWithoutSpace(){
+        XCTAssertEqual("a d z".sortedChar, "adz", "a d z should sorted to adz")
+    }
 }

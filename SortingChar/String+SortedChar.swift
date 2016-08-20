@@ -10,6 +10,10 @@ import Foundation
 
 extension String {
     var sortedChar: String {
-        return String(self.characters.sort())
+        var chars = CharacterView()
+        for c in self.characters.sort() where c != " " {
+            chars.append(c)
+        }
+        return String(chars)
     }
 }
