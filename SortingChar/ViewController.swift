@@ -20,6 +20,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBOutlet weak var inputTextField: UITextField!
+    @IBOutlet weak var sortedCharLabel: UILabel!
+    @IBAction func sorting() {
+        sortedCharLabel.text = inputTextField.text?.sortedChar
+    }
 }
 
