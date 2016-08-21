@@ -79,13 +79,11 @@
 		D82169551D68B09700093436 /* SortingChar */ = {
 			isa = PBXGroup;
 			children = (
-				D82169561D68B09700093436 /* AppDelegate.swift */,
 				D82169581D68B09700093436 /* ViewController.swift */,
 				D821695A1D68B09700093436 /* Main.storyboard */,
-				D821695D1D68B09700093436 /* Assets.xcassets */,
 				D821695F1D68B09700093436 /* LaunchScreen.storyboard */,
-				D82169621D68B09700093436 /* Info.plist */,
 				D82169761D68B1E000093436 /* String+SortedChar.swift */,
+				D82169781D69A4C800093436 /* Supporting files */,
 			);
 			path = SortingChar;
 			sourceTree = "<group>";
@@ -97,6 +95,16 @@
 				D821696D1D68B09700093436 /* Info.plist */,
 			);
 			path = SortingCharTests;
+			sourceTree = "<group>";
+		};
+		D82169781D69A4C800093436 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				D82169561D68B09700093436 /* AppDelegate.swift */,
+				D82169621D68B09700093436 /* Info.plist */,
+				D821695D1D68B09700093436 /* Assets.xcassets */,
+			);
+			name = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
